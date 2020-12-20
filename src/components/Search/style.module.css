@@ -1,0 +1,19 @@
+.Search {
+  display: flex;
+  width: 30%;
+  position: relative;
+  align-items: center;
+}
+
+.Search input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+.Icon {
+  position: absolute;
+
+  right: 5px;
+}

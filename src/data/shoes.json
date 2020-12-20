@@ -1,0 +1,62 @@
+[
+  {
+    "id": "s-01",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-02",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-03",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-04",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-05",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-06",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-07",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-08",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-09",
+    "title": "Shoes",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  },
+  {
+    "id": "s-10",
+    "title": "Prada Linea Rossa",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "9.99"
+  }
+]

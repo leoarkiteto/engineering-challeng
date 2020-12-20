@@ -1,0 +1,12 @@
+.FooterItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterItem ul {
+  list-style: none;
+}
+
+.FooterList {
+  display: flex;
+}
