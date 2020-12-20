@@ -2,9 +2,8 @@ import React from 'react';
 import Product from './Product';
 
 import classes from './style.module.css';
-import data from '../../data/shoes.json';
 
-function ProductList() {
+const ProductList = ({ data, showId }) => {
   return (
     <div className={classes.ProductList}>
       {data.map(shoe => (
@@ -13,10 +12,12 @@ function ProductList() {
           title={shoe.title}
           desc={shoe.description}
           price={shoe.price}
+          id={shoe.id}
+          pickedProduct={showId}
         />
       ))}
     </div>
   );
-}
+};
 
 export default ProductList;

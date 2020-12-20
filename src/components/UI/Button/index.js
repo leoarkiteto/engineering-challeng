@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './style.module.css';
 
-const button = ({ children, clicked, btnType }) => {
+const Button = ({ children, clicked, btnType }) => {
   return (
     <button
       className={[classes.Button, classes[btnType]].join(' ')}
@@ -12,4 +12,4 @@ const button = ({ children, clicked, btnType }) => {
   );
 };
 
-export default button;
+export default Button;

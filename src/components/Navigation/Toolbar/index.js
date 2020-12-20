@@ -5,22 +5,18 @@ import DrawerToggle from '../SideDrawer/DrawerToggle';
 import Search from '../../Search';
 
 import classes from './style.module.css';
-import data from '../../../data/shoes.json';
 
-const toolbar = ({ drawerToggleClicked }) => {
-  const searchListProduct = event => {
-    let productName = event.target.value;
-    const productFound = data.filter(product => product.title === productName);
-    console.log(productFound);
-  };
-
+const Toolbar = ({ drawerToggleClicked, searchListProduct }) => {
   return (
     <header className={classes.Toolbar}>
       <DrawerToggle clicked={drawerToggleClicked} />
+
       <div className={classes.Logo}>
         <Logo />
       </div>
-      <Search searchProduct={e => searchListProduct(e)} />
+
+      <Search searchProduct={searchListProduct} />
+
       <nav className={classes.DesktopOnly}>
         <NavigationList />
       </nav>
@@ -28,4 +24,4 @@ const toolbar = ({ drawerToggleClicked }) => {
   );
 };
 
-export default toolbar;
+export default Toolbar;

@@ -1,8 +1,9 @@
 import React from 'react';
 import Backdrop from '../Backdrop';
+
 import classes from './style.module.css';
 
-const modal = ({ children, show, modalClosed }) => {
+const Modal = ({ children, show, modalClosed }) => {
   return (
     <>
       <Backdrop show={show} clicked={modalClosed} />
@@ -18,4 +19,4 @@ const modal = ({ children, show, modalClosed }) => {
   );
 };
 
-export default modal;
+export default Modal;

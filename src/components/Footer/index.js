@@ -3,7 +3,7 @@ import FooterItem from './FooterItem';
 
 import classes from './style.module.css';
 
-function Footer() {
+const Footer = () => {
   const footerList = [
     {
       id: 1,
@@ -42,6 +42,6 @@ function Footer() {
       <div>Leo França Copyright © Fusion Lab, S.L. 2020 | Aviso legal</div>
     </footer>
   );
-}
+};
 
 export default Footer;

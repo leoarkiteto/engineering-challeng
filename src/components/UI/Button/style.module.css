@@ -1,16 +1,15 @@
 .Button {
-  background-color: transparent;
+  background-color: #ac3944;
   border: none;
   color: white;
   outline: none;
   cursor: pointer;
-  font: inherit;
-  padding: 10px;
-  margin: 10px;
+  font-size: 2rem;
+  /* padding: 0.5rem; */
   font-weight: bold;
 }
 
-.Button:first-of-type {
+/* .Button:first-of-type {
   margin-left: 0;
   padding-left: 0;
 }
@@ -21,4 +20,4 @@
 
 .Danger {
   color: #944317;
-}
+} */

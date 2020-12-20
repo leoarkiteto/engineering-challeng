@@ -1,0 +1,15 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+}
+
+.Fields {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.Fields label,
+.Fields input {
+  display: block;
+}

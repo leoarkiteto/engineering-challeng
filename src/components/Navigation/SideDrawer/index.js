@@ -5,7 +5,7 @@ import Backdrop from '../../UI/Backdrop';
 
 import classes from './style.module.css';
 
-const sideDrawer = ({ open, closed }) => {
+const SideDrawer = ({ open, closed }) => {
   let attachedClasses = [classes.SideDrawer, classes.Close];
   if (open) {
     attachedClasses = [classes.SideDrawer, classes.Open];
@@ -25,4 +25,4 @@ const sideDrawer = ({ open, closed }) => {
   );
 };
 
-export default sideDrawer;
+export default SideDrawer;

@@ -1,15 +1,23 @@
 import React from 'react';
+import Modal from '../../../UI/Modal';
+// import Login from '../../../Login';
 
 import classes from './style.module.css';
 
-const navigationItem = ({ link, children, active }) => {
+const NavigationItem = ({ displayModal, showModal, children, popUp }) => {
   return (
-    <li className={classes.NavigationItem}>
-      <a href={link} className={active ? classes.active : null}>
-        {children}
-      </a>
-    </li>
+    <>
+      <Modal show={displayModal} modalClosed={showModal}>
+        {popUp}
+      </Modal>
+
+      <li className={classes.NavigationItem}>
+        <a href='/' onClick={showModal}>
+          {children}
+        </a>
+      </li>
+    </>
   );
 };
 
-export default navigationItem;
+export default NavigationItem;

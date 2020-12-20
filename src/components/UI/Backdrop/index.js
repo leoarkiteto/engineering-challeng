@@ -2,10 +2,10 @@ import React from 'react';
 
 import classes from './style.module.css';
 
-const backdrop = ({ show, clicked }) => {
+const Backdrop = ({ show = false, clicked }) => {
   return show ? (
     <div className={classes.Backdrop} onClick={clicked}></div>
   ) : null;
 };
 
-export default backdrop;
+export default Backdrop;

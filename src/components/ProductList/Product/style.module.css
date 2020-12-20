@@ -20,5 +20,16 @@
 
 .Add {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.Add a {
+  text-decoration: none;
+  color: #fff;
+  width: 2rem;
+  font-size: 1.5rem;
+  background: red;
+  padding: 0.5rem;
 }

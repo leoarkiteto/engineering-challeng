@@ -3,7 +3,7 @@ import React from 'react';
 import shoesLogo from '../../assets/img/logo.jpeg';
 import classes from './style.module.css';
 
-const logo = () => {
+const Logo = () => {
   return (
     <div className={classes.Logo}>
       <img src={shoesLogo} alt='MyShop logo' />
@@ -11,4 +11,4 @@ const logo = () => {
   );
 };
 
-export default logo;
+export default Logo;
